@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" >
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlgestioncompte.css" />
+    </stylesheets>
+   <children>
+      <TreeTableView layoutY="-1.0" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TreeTableColumn prefWidth="75.0" text="ID" />
+          <TreeTableColumn prefWidth="75.0" text="Nom" />
+            <TreeTableColumn prefWidth="75.0" text="Prenom" />
+            <TreeTableColumn prefWidth="75.0" text="Email" />
+            <TreeTableColumn prefWidth="75.0" text="Login" />
+            <TreeTableColumn prefWidth="75.0" text="Boutique" />
+            <TreeTableColumn prefWidth="75.0" text="Type" />
+            <TreeTableColumn prefWidth="75.0" text="Action" />
+        </columns>
+      </TreeTableView>
+   </children>
+</AnchorPane>

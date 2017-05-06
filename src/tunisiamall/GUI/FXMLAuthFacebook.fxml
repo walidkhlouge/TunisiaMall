@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="839.0" prefWidth="1214.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLAuthFacebookController">
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlauthfacebook.css" />
+    </stylesheets>
+   <children>
+      <WebView fx:id="web" layoutX="62.0" layoutY="21.0" prefHeight="722.0" prefWidth="1110.0" onMouseClicked="#verifURL"/>
+   </children>
+    
+</AnchorPane>

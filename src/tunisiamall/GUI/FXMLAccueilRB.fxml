@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="622.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Boutique">
+      <content>
+       <fx:include source="FXMLModifierCoordonneeBoutique.fxml"/>
+      </content>
+    </Tab>
+    <Tab text="Produit">
+      <content>
+      <fx:include source="FXMLModifierProduitRespBoutique.fxml" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

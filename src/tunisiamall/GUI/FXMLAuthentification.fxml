@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLAuthentificationController">
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlauthentification.css" />
+    </stylesheets>
+      <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@images/tunisia-mall-620x420.jpg" />
+         </image>
+      </ImageView>
+      <TextField id="Login" fx:id="login" layoutX="367.0" layoutY="260.0" >
+          <tooltip>
+                  <Tooltip text="Saisir login" />
+               </tooltip></TextField>
+      <PasswordField id="pwdField" fx:id="pwd" layoutX="367.0" layoutY="313.0" >
+          <tooltip>
+                  <Tooltip text="Saisir mot de passe" />
+          </tooltip>
+      </PasswordField>
+      <Button id="connect" fx:id="connecter" layoutX="600.0" layoutY="462.0" mnemonicParsing="false" onAction="#auth" styleClass="buttonAuth" text="Se connecter" />
+      <Button id="inscrire" fx:id="inscrire" layoutX="517.0" layoutY="30.0" mnemonicParsing="false" onAction="#inscription" styleClass="buttonAuth" text="S'inscrire" />
+      <Button id="mdpOublie" layoutX="629.0" layoutY="30.0" mnemonicParsing="false" styleClass="buttonAuth" text="Mot de passe oublié" />
+      <Label layoutX="244.0" layoutY="260.0" text="Login" textFill="WHITE" />
+      <Label layoutX="217.0" layoutY="318.0" text="Mot de passe" textFill="WHITE" />
+      <Text fx:id="alert" fill="RED" layoutX="319.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="149.0" />
+   </children>
+</AnchorPane>

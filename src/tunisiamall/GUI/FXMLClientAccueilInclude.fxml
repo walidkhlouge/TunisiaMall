@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="mainLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1630.0" style="-fx-background-color: rgb(255,255,255);" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLClientAccueilIncludeController">
+  
+    <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="bienvenue" layoutX="45.0" layoutY="14.0" />
+            <ImageView fx:id="improfile" fitHeight="150.0" fitWidth="200.0" layoutX="4.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="33.0" fitWidth="57.0" layoutX="21.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/compte/Edit%20User%20Male-52%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="51.0" layoutX="14.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/compte/Shopping%20Cart-52.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="panier" buttonType="RAISED" layoutX="65.0" layoutY="382.0" prefHeight="74.0" prefWidth="111.0" style="-fx-background-color: rgb(255,1,1);" text="Voir panier" textFill="#fff7f7" />
+            <JFXButton buttonType="RAISED" layoutX="68.0" layoutY="490.0" style="-fx-background-color: rgb(255,1,1);" text="Modifier Profile" textFill="#fff7f7" />
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="23.0" prefWidth="1625.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="accueil" buttonType="RAISED" layoutX="45.0" layoutY="9.0" prefHeight="32.0" prefWidth="125.0" style="-fx-background-color: rgb(255,0,0);" text="Accueil" textFill="WHITE" />
+            <JFXButton fx:id="catalogue" buttonType="RAISED" layoutX="223.0" layoutY="9.0" prefHeight="31.0" prefWidth="131.0" style="-fx-background-color: rgb(255,0,0);;" text="Catalogue" textFill="WHITE" />
+            <JFXButton fx:id="enseigne" buttonType="RAISED" layoutX="402.0" layoutY="9.0" prefHeight="31.0" prefWidth="147.0" style="-fx-background-color: rgb(255,0,0);;" text="Enseigne" textFill="WHITE" />
+            <JFXButton fx:id="boutique" buttonType="RAISED" layoutX="587.0" layoutY="9.0" prefHeight="31.0" prefWidth="139.0" style="-fx-background-color: rgb(255,0,0);;" text="Boutique" textFill="WHITE" />
+            <JFXButton fx:id="produit" buttonType="RAISED" layoutX="782.0" layoutY="8.0" prefHeight="31.0" prefWidth="125.0" style="-fx-background-color: rgb(255,0,0);;" text="Produit" textFill="WHITE" />
+            <JFXButton fx:id="deconnexion" buttonType="RAISED" layoutX="1360.0" layoutY="8.0" prefHeight="30.0" prefWidth="136.0" style="-fx-background-color: rgb(255,0,0);;" text="Deconnexion" textFill="WHITE" />
+            <JFXButton fx:id="map" buttonType="RAISED" layoutX="968.0" layoutY="8.0" prefHeight="30.0" prefWidth="144.0" style="-fx-background-color: rgb(255,0,0);;" text="Map" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

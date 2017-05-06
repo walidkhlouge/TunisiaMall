@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLGestionEnseigneModifController">
+   <children>
+      <ImageView fx:id="modifimageView" fitHeight="135.0" fitWidth="206.0" layoutX="330.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="imageLabel" layoutX="29.0" layoutY="258.0" text="Image">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="39.0" text="Modifier enseigne">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="imageNameLabel" layoutX="547.0" layoutY="241.0" prefHeight="10.0" prefWidth="97.0" />
+      <JFXButton fx:id="parcourirButton" buttonType="RAISED" layoutX="549.0" layoutY="278.0" onAction="#HandleParcourirButton" prefHeight="31.0" prefWidth="86.0" ripplerFill="WHITE" style="-fx-background-color: rgb(247,3,3);" text="Parcourir..." textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="modifierButton" buttonType="RAISED" layoutX="433.0" layoutY="395.0" onAction="#HandleModifierButton" prefHeight="43.0" prefWidth="97.0" ripplerFill="WHITE" style="-fx-background-color: rgb(247,3,3);" text="Modifier" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="annulerButton" buttonType="RAISED" layoutX="549.0" layoutY="395.0" onAction="#HandleAnnulerButton" prefHeight="43.0" prefWidth="86.0" ripplerFill="WHITE" style="-fx-background-color: rgb(247,3,3);" text="Annuler" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="nomField" focusColor="#f70303" layoutX="329.0" layoutY="90.0" maxWidth="195.0" minWidth="195.0" prefHeight="31.0" prefWidth="195.0" promptText="3 à 20 caracteres" />
+      <JFXTextField fx:id="adresseField" focusColor="#f70303" layoutX="329.0" layoutY="167.0" maxWidth="195.0" minWidth="195.0" prefHeight="31.0" prefWidth="195.0" promptText="5 à 30 caracteres" />
+      <Label fx:id="imageLabel1" layoutX="24.0" layoutY="96.0" text="Nom">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="imageLabel11" layoutX="24.0" layoutY="173.0" text="Adresse">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Separator layoutX="10.0" layoutY="378.0" prefHeight="17.0" prefWidth="626.0" />
+   </children>
+</AnchorPane>

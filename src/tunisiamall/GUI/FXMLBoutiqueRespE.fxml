@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPaneBoutiqueRE" prefHeight="400.0" prefWidth="600.0" >
+    <stylesheets>
+        <URL value="@tunisiamall/Style/fxmlboutiquerespe.css" />
+    </stylesheets>
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Ajouter Boutique">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField layoutX="167.0" layoutY="93.0" />
+                        <Label layoutX="34.0" layoutY="97.0" text="Intitulé" />
+                        <Label layoutX="34.0" layoutY="155.0" text="Nom Enseigne" />
+                        <TextField layoutX="166.0" layoutY="151.0" />
+                        <Label layoutX="34.0" layoutY="213.0" prefHeight="17.0" prefWidth="120.0" text="Responsable Boutique" />
+                        <TextField layoutX="167.0" layoutY="209.0">
+                           <contextMenu>
+                              <ContextMenu>
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="login 1" />
+                                    <MenuItem mnemonicParsing="false" text="login 2" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu></TextField>
+                        <Button layoutX="467.0" layoutY="317.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Ajouter" /> 
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Supprimer Boutique">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TreeTableView prefHeight="370.0" prefWidth="600.0">
+                          <columns>
+                            <TreeTableColumn prefWidth="82.0" text="IdBoutique" />
+                            <TreeTableColumn prefWidth="68.0" text="Intitulé" />
+                              <TreeTableColumn prefWidth="95.0" text="Nom Enseigne" />
+                              <TreeTableColumn prefWidth="175.0" text="Login Responsable Boutique" />
+                              <TreeTableColumn prefWidth="96.0" text="Action" />
+                          </columns>
+                        </TreeTableView>
+                        <ScrollBar layoutX="586.0" layoutY="25.0" orientation="VERTICAL" prefHeight="345.0" prefWidth="14.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Modifier Boutique">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField layoutX="168.0" layoutY="102.0" />
+                        <Label layoutX="34.0" layoutY="106.0" text="Intitulé" />
+                        <Label layoutX="34.0" layoutY="164.0" text="Nom Enseigne" />
+                        <TextField layoutX="169.0" layoutY="160.0" />
+                        <Label layoutX="34.0" layoutY="218.0" text="Responsable Enseigne" />
+                        <Button layoutX="467.0" layoutY="317.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Modifier" />
+                        <TextField layoutX="169.0" layoutY="214.0">
+                           <contextMenu>
+                              <ContextMenu>
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="login 1" />
+                                    <MenuItem mnemonicParsing="false" text="login 2" />
+                                 </items>
+                              </ContextMenu>
+                           </contextMenu>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

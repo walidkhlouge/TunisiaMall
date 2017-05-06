@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="tunisiamall.IController.FXMLPackPubController">
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlpackpub.css" />
+    </stylesheets>
+   <children>
+      <ToolBar layoutX="36.0" layoutY="23.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="172.0" layoutY="23.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="313.0" layoutY="23.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="36.0" layoutY="203.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="173.0" layoutY="205.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="316.0" layoutY="205.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="448.0" layoutY="23.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="448.0" layoutY="205.0" prefHeight="170.0" prefWidth="120.0">
+         <items>
+            <Button mnemonicParsing="false" text="Acheter" />
+            <Button mnemonicParsing="false" text="Info" />
+         </items>
+      </ToolBar>
+   </children>
+</AnchorPane>

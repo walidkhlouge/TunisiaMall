@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlinterfaceclientboutique.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="-7.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField layoutX="437.0" promptText="Rechercher..." />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="29.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="289.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/logo.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="86.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/pullandbear.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="114.0" fitWidth="121.0" layoutX="116.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Mango-Logo-Vector-Image.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="90.0" fitWidth="162.0" layoutX="96.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/zara.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="289.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/forever21-logo.png" />
+               </image>
+            </ImageView>
+            <Pagination layoutX="168.0" layoutY="320.0" prefHeight="60.0" prefWidth="255.0" />
+            <ImageView fitHeight="19.0" fitWidth="31.0" layoutX="414.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/search.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

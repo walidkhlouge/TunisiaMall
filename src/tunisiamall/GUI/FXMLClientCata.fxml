@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="488.0" prefWidth="767.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="tunisiamall.IController.FXMLClientCataController">
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlclientcata.css" />
+    </stylesheets>
+   <children>
+      <ImageView fx:id="image1" fitHeight="150.0" fitWidth="200.0" layoutX="41.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image2" fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image3" fitHeight="150.0" fitWidth="200.0" layoutX="529.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image4" fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image5" fitHeight="150.0" fitWidth="200.0" layoutX="283.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image6" fitHeight="150.0" fitWidth="200.0" layoutX="528.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" />
+      <Pagination fx:id="page" onMouseMoved="#onClick" prefHeight="488.0" prefWidth="773.0" />
+   </children>
+</AnchorPane>

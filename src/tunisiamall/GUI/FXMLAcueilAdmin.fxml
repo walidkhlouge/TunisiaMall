@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLAcueilAdminController">
+   <children>
+      <ImageView fitHeight="104.0" fitWidth="116.0" layoutX="74.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Edit%20User%20Male-52.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="152.0" layoutX="249.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Positive%20Dynamic-52.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="125.0" layoutX="426.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/EPUB-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logoutB" fitHeight="52.0" fitWidth="58.0" layoutX="526.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Export%20Filled-50.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="compteB" buttonType="RAISED" layoutX="57.0" layoutY="288.0" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: rgb(255,1,1);" text="Gestion Compte" textFill="WHITE" />
+      <JFXButton fx:id="packB" buttonType="RAISED" layoutX="419.0" layoutY="288.0" style="-fx-background-color: rgb(255,1,1);" text="Packs publicitaires" textFill="WHITE" />
+      <JFXButton fx:id="statB" buttonType="RAISED" layoutX="239.0" layoutY="288.0" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: rgb(255,1,1);" text="Statistiques" textFill="WHITE" />
+      <ImageView fitHeight="52.0" fitWidth="393.0" layoutX="88.0" layoutY="24.0">
+         <image>
+            <Image url="@../../../../../../../../../../../wamp/www/TunisiaMall/web/img/aze.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

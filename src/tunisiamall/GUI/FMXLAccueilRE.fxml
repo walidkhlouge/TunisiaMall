@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FMXLAccueilREController">
+  <tabs>
+    <Tab text="Boutique">
+      <content>
+        <fx:include source="FXMLBoutiqueRespE.fxml" />
+      </content>
+    </Tab>
+      <Tab text="Enseigne">
+        <content>
+            <fx:include source="FXMLResponsableEchoisirEnseigneModif.fxml" />
+        </content>
+      </Tab>
+      <Tab text="Pack publicitaire">
+        <content>
+            <fx:include source="FXMLPackPub.fxml" />
+        </content>
+      </Tab>
+      <Tab text="Produit">
+        <content>
+          <fx:include source="FXMLProduitRespE.fxml" />
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="anchor2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLClientChoisirBoutiqueController">
+   <left>
+      <AnchorPane fx:id="anchor3" minHeight="0.0" minWidth="0.0" prefHeight="770.0" prefWidth="866.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="recherche22" layoutX="73.0" layoutY="34.0" promptText="recherche boutique" />
+            <ScrollPane prefHeight="700.0" prefWidth="1000.0">
+               <content>
+                  <AnchorPane fx:id="anchor1" prefHeight="700.0" prefWidth="986.0" style="-fx-background-color: rgb(255,255,255);">
+                     <children>
+                        <TextField fx:id="recherche" layoutX="823.0" layoutY="14.0" promptText="recherche" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

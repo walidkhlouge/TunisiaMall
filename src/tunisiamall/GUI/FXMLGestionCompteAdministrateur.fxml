@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLGestionCompteAdministrateurController">
+   <children>
+      <ImageView fx:id="activerB" fitHeight="66.0" fitWidth="66.0" layoutX="512.0" layoutY="101.0" onMouseClicked="#activer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/AdminImages/Accept-Male-User.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="supprimerB" fitHeight="66.0" fitWidth="66.0" layoutX="512.0" layoutY="189.0" onMouseClicked="#supprimer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/AdminImages/Remove-Male-User.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bloquerB" fitHeight="66.0" fitWidth="71.0" layoutX="512.0" layoutY="278.0" onMouseClicked="#bloquer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/AdminImages/Male-User-Warning.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="34.0" layoutY="106.0" prefHeight="228.0" prefWidth="432.0">
+         <columns>
+            <TableColumn fx:id="c2" prefWidth="128.0" text="Etat de compte" />
+            <TableColumn fx:id="c3" minWidth="0.0" prefWidth="138.0" text="Login" />
+            <TableColumn fx:id="c1" prefWidth="165.0" text="Type de compte" />
+         </columns>
+      </TableView>
+      <Text fill="#c30909" layoutX="85.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des comptes :">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="precedent" fitHeight="39.0" fitWidth="63.0" layoutX="14.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/AdminImages/Circled%20Chevron%20Left-64.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="alert" layoutX="157.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="247.99999856948853" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1044.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLStatistiqueAdminController">
+   <children>
+      <BarChart fx:id="chart" layoutX="14.0" layoutY="37.0" prefHeight="378.0" prefWidth="446.0">
+        <xAxis>
+          <CategoryAxis label="Type d'utilisateur" side="BOTTOM" tickLabelFill="#dd2525" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Nombre" side="LEFT" upperBound="50.0" />
+        </yAxis>
+      </BarChart>
+      <LineChart fx:id="chartv" layoutX="521.0" layoutY="22.0" prefHeight="378.0" prefWidth="500.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis prefHeight="295.0" prefWidth="31.0" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Label layoutX="70.0" layoutY="461.0" text="Nombre des enseignes :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="NE" layoutX="297.0" layoutY="461.0" text="Label" textFill="#0030f2" />
+      <Label layoutX="70.0" layoutY="508.0" text="Nombre des pack publicitaires acheté :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="NP" layoutX="297.0" layoutY="508.0" text="Label" textFill="#0030f2" />
+      <Label layoutX="70.0" layoutY="551.0" text="Revenus des pack publicitaires">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="SP" layoutX="297.0" layoutY="551.0" text="Label" textFill="#0030f2" />
+   </children>
+</AnchorPane>

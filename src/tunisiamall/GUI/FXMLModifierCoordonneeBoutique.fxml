@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPaneCoo" prefHeight="400.0" prefWidth="600.0" >
+    <stylesheets>
+        <URL value="@/tunisiamall/Style/fxmlmodifiercoordonneeboutique.css" />
+    </stylesheets>
+   <children>
+      <TabPane layoutX="6.0" layoutY="7.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Modifier Coordonnées Boutique">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="419.0" layoutY="324.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="167.0" text="Enregistrer les modifications" />
+                        <Label layoutX="33.0" layoutY="105.0" text="Intitulé boutique* :" />
+                        <TextField layoutX="167.0" layoutY="101.0" prefHeight="25.0" prefWidth="204.0" promptText="Ecrire le nouveau nom du boutique" />
+                        <ComboBox disable="true" layoutX="33.0" layoutY="31.0" prefWidth="150.0" promptText="NomBoutique1" />
+                        <Label layoutX="33.0" layoutY="154.0" opacity="0.41" text="Responsable Boutique* :" />
+                        <ComboBox disable="true" layoutX="167.0" layoutY="150.0" prefWidth="150.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-font-family: "comic sans ms";
+-fx-font-style : italic;
+}
+.buttonAuth
+{
+        -fx-background-color: red;
+    -fx-border: none;
+    -fx-color: black;
+   
+    -fx-font-size: 16px;
+}

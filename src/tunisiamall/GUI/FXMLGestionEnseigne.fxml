@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tunisiamall.IController.FXMLGestionEnseigneController">
+   <children>
+      <AnchorPane layoutX="320.0" layoutY="41.0" prefHeight="533.0" prefWidth="412.0">
+         <children>
+            <Label layoutX="42.0" layoutY="75.0" text="Informations sur l'enseigne :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="44.0" layoutY="121.0" prefHeight="301.0" prefWidth="309.0">
+               <children>
+                  <Label text="Nom">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="Adresse" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="adresseLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="nomLabel" GridPane.columnIndex="1" />
+                  <ImageView fx:id="imageView" fitHeight="164.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label text="Image" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="88.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="222.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="150.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <Label layoutX="307.0" layoutY="26.0" text="Login :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="responsableLabel" layoutX="346.0" layoutY="26.0" text="Label" />
+            <JFXButton fx:id="ajoutButton" buttonType="RAISED" layoutX="92.0" layoutY="440.0" onAction="#HandleNew" prefHeight="43.0" prefWidth="97.0" ripplerFill="WHITE" style="-fx-background-color: rgb(247,3,3);" text="Ajouter" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="modifButton" buttonType="RAISED" layoutX="195.0" layoutY="440.0" onAction="#HandleEdit" prefHeight="43.0" prefWidth="97.0" ripplerFill="WHITE" style="-fx-background-color: rgb(247,3,3);" text="Modifier" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="suppButton" buttonType="RAISED" layoutX="298.0" layoutY="440.0" onAction="#HandleDelete" prefHeight="43.0" prefWidth="97.0" ripplerFill="WHITE" style="-fx-background-color: rgb(247,3,3);" text="Supprimer" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="tableView" layoutY="41.0" prefHeight="533.0" prefWidth="315.0">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <columns>
+            <TableColumn fx:id="nomColumn" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="adresseColumn" prefWidth="75.0" text="Adresse" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
